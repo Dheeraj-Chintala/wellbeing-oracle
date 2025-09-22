@@ -1,7 +1,7 @@
 import { MedicalAnalysis } from "@/pages/Index";
 
 const OPENROUTER_API_KEY = "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";
-const MODEL = "x-ai/grok-beta";
+const MODEL = "x-ai/grok-4-fast:free";
 
 export async function analyzeSymptoms(symptoms: string): Promise<MedicalAnalysis> {
   const prompt = `You are a medical AI assistant. Based on the following symptoms, provide a structured analysis. Be helpful but always emphasize that this is not a substitute for professional medical advice.
