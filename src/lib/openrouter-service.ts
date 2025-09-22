@@ -1,6 +1,6 @@
 import { MedicalAnalysis } from "@/pages/Index";
 
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "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";
 const MODEL = "x-ai/grok-4-fast:free";
 
 export async function analyzeSymptoms(symptoms: string): Promise<MedicalAnalysis> {
